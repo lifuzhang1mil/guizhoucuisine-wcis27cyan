@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guizhou Dong Minority Food Culture</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('cover2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        text-align: center;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.5); 
+        padding: 20px;
+        z-index: 10; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    }
+
+    .header h1, .header p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-wrapper {
+        padding-top: 150px;
+        z-index: 1;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    h1, h2, p {
+        margin: 20px 0;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .content {
+        max-width: 800px;
+        text-align: left;
+        color: white;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .interview-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .interview-item {
+        width: 48%; /* Keeps items horizontal on larger screens */
+        margin-bottom: 20px;
+    }
+
+    .interview-item img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        margin-bottom: 15px;
+    }
+
+    ul {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .content-wrapper::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: rgba(128, 128, 128, 0.6);
+        z-index: 5;
+        pointer-events: none; 
+    }
+
+    </style>
+</head>
+<body>
+    <body>
+    <header class="header">
+        <h1>贵州侗族食品文化</h1>
+        <p>由上海惠灵顿国际学校 2026/2027 届 IGCSE 学生出品</p>
+        <p>Lifu Zhang, Seongjoon Moon, Michael Bei, Mark Hu, Daniel Zhang</p>
+        <nav>
+            <ul>
+                <li><a href="Chinese.html">主页</a></li>
+                <li><a href="cookbookchn.html">'侗族' 食谱</a></li>
+                <li><a href="interviewchn.html">采访</a></li>
+                <li><a href="donationchn.html">捐赠</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content">
+
+            <!-- Start of Interview Section -->
+            <h2>采访</h2>
+            <p>为了进行实地调研，我们团队访问并采访了三位与现代社会中的侗族菜系有直接联系的杰出人物。以下是采访结果。</p>
+            <div class="interview-section">
+                <!-- Interview 1: Restaurant Owner -->
+                <div class="interview-item">
+                    <img src="interviews/boss.jpg" alt="餐馆老板采访">
+                    <h3>实地调研：餐馆老板采访</h3>
+                    <p><strong>问题：</strong> 您如何决定菜单上的菜品以确保顾客会喜欢？</p>
+                    <p><strong>老板的回答：</strong> 我们遵循传统的侗族菜系，例如腊肉。在特别的场合，我们会为客人提供优质的鱼肉等菜肴。</p>
+                    
+                    <p><strong>问题：</strong> 您是否根据顾客的口味偏好修改过菜单？</p>
+                    <p><strong>老板的回答：</strong> 是的，我们会提供新鲜的菜肴以体现我们的热情好客。我们还包括一些流行的炒菜来迎合更广泛的口味，但大部分菜单上是我们的特色菜。</p>
+                    
+                    <p><strong>问题：</strong> 在采购食材时，您是否注意到不同年龄层对食物的喜好有所不同？</p>
+                    <p><strong>老板的回答：</strong> 随着时间的推移，采购方式发生了变化。现在我们通过美团等平台在线购买食材，这给了我们更多的选择和更少的限制。</p>
+                    
+                    <p><strong>问题：</strong> 最近是否推出了不属于传统侗族菜肴的新菜，但却很受顾客欢迎？</p>
+                    <p><strong>老板的回答：</strong> 我们没有推出很多全新的菜肴，但我们会根据顾客的反馈对菜单进行一些修改，以更好地满足他们的口味。</p>
+                </div>
+
+                <!-- Interview 2: Local Resident -->
+                <div class="interview-item">
+                    <img src="interviews/local.jpg" alt="当地居民采访">
+                    <h3>实地调研：当地居民采访</h3>
+                    <p><strong>问题：</strong> 多年来，传统的侗族烹饪习俗发生了哪些变化？</p>
+                    <p><strong>回答：</strong> 发生了很大的变化。以前我们用柴火和泥做的炉灶，现在我们使用煤气炉。</p>
+                    
+                    <p><strong>问题：</strong> 您能否分享一些家传的菜肴？</p>
+                    <p><strong>回答：</strong> 没有，我不太清楚。</p>
+                    
+                    <p><strong>问题：</strong> 您最喜欢的传统侗族食物是什么？</p>
+                    <p><strong>回答：</strong> 酸汤鱼和酸肉。</p>
+                    
+                    <p><strong>问题：</strong> 外部影响是否改变了您种植的作物和耕作方式？</p>
+                    <p><strong>回答：</strong> 以前收割水稻时，老人们用镰刀和棉布收集。现在我们使用机器。</p>
+                </div>
+
+                <!-- Interview 3: Local Elder -->
+                <div class="interview-item">
+                    <img src="interviews/elder.jpg" alt="当地老人采访">
+                    <h3>实地调研：当地老人采访</h3>
+                    <p><strong>问题：</strong> 多年来，传统的侗族烹饪方法发生了哪些变化？</p>
+                    <p><strong>回答：</strong> 过去我们用柴火和泥做的炉灶。现在，电力使一切变得更加方便。</p>
+                    
+                    <p><strong>问题：</strong> 有没有家传的食谱代代相传，但现在面临失传的风险？</p>
+                    <p><strong>回答：</strong> 牛肚汤和腊肉是我从小传下来的特色菜。过去的菜肴都是自制的，食材都是自己收集和挑选的。</p>
+                    
+                    <p><strong>问题：</strong> 今天还在使用哪些传统方法？</p>
+                    <p><strong>回答：</strong> 我们仍然自己种植和烹饪蔬菜，包括新鲜的山野菜。我们还自己养牲畜。</p>
+                    
+                    <p><strong>问题：</strong> 外部影响是否改变了您的种植方式？</p>
+                    <p><strong>回答：</strong> 是的，现在我们参考当地的农业实践，根据顾客的喜好和成本效益种植蔬菜。</p>
+                </div>
+            </div>
+            <!-- End of Interview Section -->
+        </div>
+    </div>
+
+    <footer>
+        <p>语言选择: <a href="Chinese.html">简体中文</a> | <a href="index.html">英文</a></p>
+    </footer>
+</body>
+</html>
